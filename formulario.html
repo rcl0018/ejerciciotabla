@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recoplacion de informacion</title>
+</head>
+<body>
+    <form action="*" method="get">
+    <div class="Datos--personales">
+        <fieldset><legend>Datosd personales</legend>
+
+        <p>Nombre y apellido<input type="text"name="Nombre y Apellidos" placeholder="Nombre y apellidos" ></p>
+
+        <p>Edad <input type="text" name="edad"placeholder="Edad"></p>
+        <p>Genero<input type="radio" value="h">hombre
+        <input type="radio" value="m">mujer
+        <input type="radio" value="O">Otros</p>
+    </fieldset>
+    </div>
+
+    <div class="Contacto">
+        <fieldset>
+            <legend>Contactos</legend>
+        <p>Email <input type="email" required name="email" placeholder="Email"></p>
+        <p>Codigo Postal <input type="text" name="Codigo-postal" placeholder="Codigo Postal"></p>
+        <p>Direcion <input type="text" name="Direccion" placeholder="Direccion"></p>
+        <p>Ciudad <input type="text" name="Ciudad" placeholder="Ciudad"></p>
+    </fieldset>
+    </div>
+
+    <div class="Datos--interes">
+        <fieldset>
+            <legend>Datos de interes</legend>
+        <p>Esado civil <input type="text" name="" ></p>
+        <p>Hobbies <select name="opciones" size="4" >
+            <option value="1" >futbol</option>
+            <option value="2">Padel</option>
+            <option value="3">Tenis</option>
+            <option value="4">Golf</option>
+
+        </select></p>
+        </fieldset>
+    </div>
+
+    <div class="Comentarios">
+        <fieldset>
+            <legend>Comentarios Adicionales</legend>
+        <p>escribe aqui un comentario</p>
+        <textarea name="comentario" placeholder="Escribe un comentario" ></textarea>
+        </fieldset>
+    </div>
+
+<div  class="enviar">
+    
+    <input type="reset">
+    <input type="submit" value="Enviar">
+</div>
+</form>
+
+<div class="inicio">
+    <a href="index.html" class="curriculum">curriculum</a>
+</div>
+    
+</body>
+</html>

@@ -1,0 +1,44 @@
+body{ 
+    background-color: #0007;
+    font-family: sans-serif;
+    color: #000;
+
+}
+
+.Card{
+    background: linear-gradient(#fa5, #fa8);
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 10px;
+    box-shadow: 0 0 45px 0 #0005;
+    border-radius: 15px;
+}
+
+.Card_img, img{
+    width: auto;
+    border-radius: 100%;
+}
+
+
+li{
+    text-align: left;
+
+}
+
+ h4,p{
+    margin-top: 12px;
+    margin-bottom: 0px;
+    padding-bottom: 2px;
+
+ }
+
+.MEDAC{
+    color: blue;
+    text-decoration: none;
+}
+
+
+
+
