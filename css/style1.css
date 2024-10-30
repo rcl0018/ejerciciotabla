@@ -3,9 +3,22 @@ td,th{
 
 }
 
+.inicio{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+a{
 
-
-.curriculum>a{
     text-decoration: none;
+    background-color: orange;
+    padding: 20px;
+    border-radius: 20px;
+    color: black;
+
+}
+
+
+a:hover{
+    background-color: aqua;
 
 }
